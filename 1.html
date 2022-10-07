@@ -1,0 +1,189 @@
+<p>github.com에서 만든 Atom(아톰)으로 작성된 이 파일은 윈도우 : Ctrl + O(알파벳) / 맥 : Cmd + O(알파벳)으로 열 수 있습니다.</p>
+<h3> 1. 기본문법(태그)</h3>
+강조는 strong. <strong>강조하는 부분</strong><br>
+밑줄은 underline. 그래서 <> 안에 u <u>밑줄</u> <br>
+태그는 중첩해서 사용가능 <br>
+<h3> 2. 혁명적인 변화 </h3>
+heading은 제목 <br>
+<h3> 3. 통계에 기반한 학습 </h3>
+aws 스프링부트 파이썬<br>
+효율적인 언어 공부를 위해서는 빈도수가 높은 단어를 공부하는 게 좋다.<br> 이는 html 학습 시에도 동일하게 적용된다.<br>
+그러니 <a href="https://advancedwebranking.com/html/">https://advancedwebranking.com/html/</a>에 들어가보자!<br>
+전 세계에 있는 웹페이지들이 가장 많이 쓰이는 태그를 알 수 있다.<br>
+<p>하지만 잊지 말아야 하는 게 많이 써서 익숙해져서 쉽게 느껴졌다 해서 그것이 사소한 것은 아니란 사실이다.</p>
+
+<h3> 4. 줄바꿈</h3>
+<p>줄을 바꾸는 태그로는 "p 태그, br 태그"가 있다.<br>
+차이는 단락를 바꿀 때는  "p 태그"를 쓰는 게 바람직하다.<br>
+그러나 p 태그는 단락간 거리가 고정되어 있다는 단점이 있다.<br>
+그래서 쓰는 만큼 줄바꿈이 되어서 간격을 조절할 수 있는 br 태그가 선호되었지만 지금은 p 태그의 단점이 사라졌다.<br></P>
+<p style="margin-top:45px;"> 위와 같이 p 태그에 style="margin-top:45px"를 추가하면 p 태그의 위쪽에 45px 만큼의 여백(margin)이 생깁니다.</p>
+CSS란 p태그의 한계 극복 기능만 가지는 게 아니다.
+정보를 표현하는 html와 완전 다른 문법을 가진 css는 정보를 꾸며준다.<br>
+
+<p>중요한 건 p 태그로 단락의 경계를 분명히 하면서 CSS를 통해서 p 태그의 디자인을 자유롭게 변경할 수 있기 때문에 br 태그 보다 p 태그가 더 좋은 선택입니다.</p>
+
+<h3> 5. HTML이 중요한 이유</h3>
+웹은 접근성(accessibility, 누구나 차별없이 정보에 접근할 수 있어야 한다는 철학)을 가진다.<br>
+근데 이미지로 만든 제목을 붙인다거나 하면 스크린리더(screen reader)와 같은 프로그램을 이용해서
+정보를 청각화해서 접하는 시각장애인은 볼 수가 없다.<br>
+그래서 html은 비즈니스적인 측면뿐만 아니라 휴머니즘적인 측면에서도 중요하다.<br>
+
+<h3> 6. 최후의 문법 속성과 img</h3>
+<img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png" width="10%"></p>
+<p>img src="이미지 주소" width = "크기 또는 30%"
+src -> 속성
+이미지 주소 -> 속성, 내 피시에 없더라도 인터넷에 존재하면 이미지 표시 가능 / 이미지 저작권 문제없는 사이트 -> <a href="unsplash.com">unsplash.com</a><br>
+width의 값 -> 이미지 크기 / 숫자나 %를 사용하면 원하는 크기로 조정 가능
+
+<h3> 7. 부모 자식과 목록</h3>
+p 태그는 a 태그의 부모로 a 태그가 p 태그의 자식.
+<p>
+    <a href="https://opentutorials.org">p태그와 a태그 예시 소스</a>
+</p>
+<p>그런데 a 태그는 꼭 p 태그의 자식이어야 하거나 p 태그가 꼭 a 태그의 부모여야 하는 건 아니다.<br>
+이 관계는 필요에 따라서 관계가 달라질 수 있습니다.</p>
+<s>그와 반대로</s><br>
+고정된 관계인 태그들...<br>
+unordered list의 약자인 ul태그와 ordered list의 약자인 ol 태그.. 각자 다른 목록과 구분할 수 있게 경계를 만들어 줌<br>
+ex>
+  <ul>
+    <li>1. HTML</li>
+    <li>2. CSS</li>
+    <li>3. JavaScript</li>
+  </ul>
+  <ul>
+    <li>egoing</li>
+    <li>k8805</li>
+    <li>sorialgi</li>
+  </ul>
+  ol 태그는 li 태그과도 같이 쓰인다.
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+
+<h3> 7. 문서의 구조와 슈퍼스타들</h3>
+<ol>
+    <li>
+      title 태그
+       : 제목을 지정하기 위해 사용되는 태그로,<br> 검색엔진이 웹페이지를 분석할 때 가장 중요하게 생각하는 태그
+     </li>
+     <li>
+       "<title>WEB1 - html</title>"
+       <meta charset="utf-8">
+     </li>
+</ol>
+ 는
+이기 때문에
+title 태그를 쓰지 않으면 정말 큰 손해랍니다.
+
+
+
+그럼 웹페이지의 제목이
+내용을 잘 반영하게 될 거에요.
+
+
+웹브라우저야
+이 웹페이지는
+UTF-8로 만들어졌기 때문에
+UTF-8로 열어야 해~
+이것을 웹브라우저가 알아듣게 해야 합니다. ->
+
+
+
+HTML 태그의 제왕
+body 태그와
+head 태그를 감싸는
+하나의 태그를 두기로 약속했습니다.
+html 태그 입니다.
+또 이 웹페이지가
+HTML로서 만들어졌다는 것을
+표현하기 위해서  문서의 시작에 아래와 같은 코드를 추가합니다.
+<!doctype html>
+
+변경사항
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - html</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+  <h1>HTML</h1>
+  <p>Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+  <img src="coding.jpg" width="100%">
+  </p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+  </p>
+</body>
+</html>
+
+9.HTML 태그의 제왕
+현대의 HTML은
+150여개의 태그로 이루어져 있지만
+이들 모두 이 태그의 아래에 있습니다.
+이 태그가 무엇일까요?
+
+검색엔진들은
+이 태그 덕분에 전세계의 웹을 항해하면서
+웹페이지들을 발견할 수 있고,
+이 태그 덕분에 더 좋은
+검색결과를 만들 수 있었습니다.
+이 태그가 없다면 검색엔진은 존재하지 않았을 것입니다.
+우리의 일상에서
+검색엔진이 없다면 어떤 일이 생길지 생각해 보세요.
+이 태그가 무엇일까요?HTML의 약자
+HyperText Markup Language의
+HyperText가 바로 이 태그를 의미합니다.
+이 태그의 이름은 anchor의 첫글자 a입니다.
+앵커는 배가 정박할 때 사용하는 닻을 의미합니다.
+정보의 바다에 정박한다는 의미의 시적인 표현인
+a 태그는 어떤 기능을 표현하는 것일까요?
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - html</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+  <h1>HTML</h1>
+  <p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+  <img src="coding.jpg" width="100%">
+  </p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+  </p>
+</body>
+</html>
+
+10.웹사이트 완성
+
+링크를 통해서 서로 결합되어 있는
+웹페이지들의 그룹을
+웹에서는 책이라고 하지 않고
+웹사이트(web site)라고 합니다.
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - html</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <ol>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="1.html">CSS</a></li>
+    <li><a href="1.html">JavaScript</a></li>
+  </ol>
+  <h2>HTML</h2>
+  <p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 speicification">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+  </p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means t
